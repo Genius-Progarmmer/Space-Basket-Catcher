@@ -8,6 +8,11 @@ The game takes place in a space-themed environment. Multiple stars and bombs fal
 
 The player must move the basket horizontally and catch as many stars as possible while avoiding bombs.
 
+## Technologies
+
+* Python
+* Pygame
+
 ## Features
 
 * Real-time basket movement
@@ -22,45 +27,55 @@ The player must move the basket horizontally and catch as many stars as possible
 * Space-themed visual environment
 * Custom images and game icon
 
-## Controls
+## Challenges
 
-| Key         | Action     |
-| ----------- | ---------- |
-| Left Arrow  | Move left  |
-| Right Arrow | Move right |
+One of the main challenges of this project was managing multiple falling objects while detecting collisions with the basket.
 
-## Game Mechanics
+Another challenge was creating score-based difficulty progression and handling the game-over state.
 
-### Stars
+## What I Learned
 
-When the basket catches a star, the player's score increases.
+Through this project, I learned how to:
 
-After being collected, the star is moved back to the top of the screen at a new random horizontal position.
+* Build a game loop with Pygame
+* Handle keyboard input
+* Use collision detection
+* Work with randomized object positions
+* Track scores and game states
+* Load and use image assets
+* Create basic difficulty progression
 
-### Bombs
+## Status
 
-Bombs fall alongside the stars.
+Completed
 
-If a bomb collides with the basket, the player's score decreases and the bomb is repositioned.
+## Future Improvements
 
-### Missed Stars
+* Add more types of falling objects
+* Add more levels
+* Add sound effects
+* Add more advanced animations
+* Add a high-score system
 
-If a star reaches the bottom of the game area without being collected, the player's score decreases.
+## Project Preview
 
-### Difficulty
+![Space Basket Catcher Preview](flappy_bird_preveiw.png)
 
-The game contains score-based level progression that can increase the movement speed of falling objects.
-
-### Game Over
-
-When the score reaches the game's game-over condition, a game-over message is displayed and the game stops.
-
-## Requirements
-
-* Python 3.x
-* Pygame
+The preview shows the Space Basket Catcher game during gameplay.
 
 ## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Genius-Progarmmer/Space-Basket-Catcher.git
+```
+
+Move into the project directory:
+
+```bash
+cd Space-Basket-Catcher
+```
 
 Install Pygame:
 
@@ -68,7 +83,9 @@ Install Pygame:
 pip install pygame
 ```
 
-## Running the Game
+## How to Run
+
+Run the main Python file:
 
 ```bash
 python main.py
@@ -80,20 +97,14 @@ python main.py
 Space-Basket-Catcher/
 │
 ├── main.py
+├── flappy_bird_preveiw.png
 ├── space.jpg
 ├── bomb.png
 ├── basket_green.png
 └── star.png
 ```
 
-## Technologies Used
-
-* Python
-* Pygame
-
 ## Programming Concepts
-
-This project demonstrates several fundamental game-development concepts:
 
 * Game loops
 * Keyboard input
@@ -106,3 +117,9 @@ This project demonstrates several fundamental game-development concepts:
 * Game states
 * Pygame rendering
 * Asset loading
+
+## Author
+
+**Genius-Progarmmer**
+
+GitHub: https://github.com/Genius-Progarmmer

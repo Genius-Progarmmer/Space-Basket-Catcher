@@ -59,7 +59,7 @@ Completed
 
 ## Project Preview
 
-![Space Basket Catcher Preview](flappy_bird_preveiw.png)
+![Space Basket Catcher Preview](catch_stars_preveiw.png)
 
 The preview shows the Space Basket Catcher game during gameplay.
 
